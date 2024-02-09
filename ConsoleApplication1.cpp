@@ -72,7 +72,7 @@ int main()
         {
             letters.push_back(tmpword[i]);
             count.push_back(WordCounter(tmpword[i], tmpword));
-            tmpword = LetterDeleting()
+            tmpword = LetterDeleting(tmpword[i], tmpword);
         }
     }
 }
