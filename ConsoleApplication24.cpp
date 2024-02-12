@@ -9,15 +9,15 @@ int main()
     std::vector <char> letters {'К', 'О', 'М', 'Б', 'И', 'Н', 'А', 'Т', 'О', 'Р', 'И', 'К', 'А'};
     std::set <std::string> words;
 
-    for (int a = 0; a < 12; a++)
+    for (int a = 0; a < 13; a++)
     {
-        for (int b = 0; b < 12; b++)
+        for (int b = 0; b < 13; b++)
         {
-            for (int c = 0; c < 12; c++)
+            for (int c = 0; c < 13; c++)
             {
-                for (int d = 0; d < 12; d++)
+                for (int d = 0; d < 13; d++)
                 {
-                    for (int e = 0; e < 12; e++)
+                    for (int e = 0; e < 13; e++)
                     {
                         std::set <int> ind;
                         ind.insert(a);
