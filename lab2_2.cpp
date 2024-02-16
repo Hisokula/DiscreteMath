@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 int main()
 {
@@ -6,7 +6,7 @@ int main()
     double b = 1;
     for (int x = 2; x < 101; x++)
     {
-        double next = 7 * -12 * a;
+        double next = 10 * a - 3 * b;
         a = b;
         b = next;
     }
